@@ -1,1 +1,114 @@
+body {
+    margin:0;
+}
 
+nav {
+    display: flex;
+    justify-content: space-between; /* This will push the logo to the right */
+    align-items: center; /* Vertically center the logo and navigation items */
+    padding: 10px; /* Add padding as needed */
+
+    background-color: rgb(250, 248, 248);
+
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    box-sizing: content-box;
+    display: flex;
+    padding-block: 10px 20px;
+    border-radius: 10%;
+    background-color: #90c4de;
+    /* Optional styling for list items, if needed */
+}
+
+.logo-container {
+    /* Optional styling for the logo container, if needed */
+}
+
+.contact{
+
+}
+
+
+main{
+    position: relative;
+}
+
+section {
+    height:100vh;
+    
+    position: relative;
+}
+
+
+section:nth-of-type(1) {
+    display: flex;
+    justify-content: left center;
+    align-items: center;
+}
+
+h1{
+    position: absolute;
+}
+
+.mainstad{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: center bottom;
+}
+
+.slide{
+    z-index: 2;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    width:100%;
+
+}
+
+
+    
+
+.grond{
+    width:100;
+
+}
+h2{
+    text-align: center;
+    color: #7Faec5;
+}
+.p2{
+    text-align: center;
+}
+
+.introductie{
+    text-align: center;
+}
+.wat{
+    text-align: center;
+}
+.waarom{
+    text-align: center;
+   
+}
+.app{
+    text-align: center;
+    width: 90em;
+    padding: 10px;
+    
+}
