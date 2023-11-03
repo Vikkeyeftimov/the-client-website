@@ -31,16 +31,10 @@ nav li {
     padding-block: 10px 20px;
     border-radius: 10%;
     background-color: #90c4de;
-    /* Optional styling for list items, if needed */
+   
 }
 
-.logo-container {
-    /* Optional styling for the logo container, if needed */
-}
 
-.contact{
-
-}
 
 
 main{
@@ -60,7 +54,11 @@ section:nth-of-type(1) {
     align-items: center;
 }
 
-h1{
+h1.{
+    position: absolute;
+}
+
+.Begin title{
     position: absolute;
 }
 
@@ -86,29 +84,45 @@ h1{
 
 .grond{
     width:100;
+    height: 25em;
 
 }
 h2{
     text-align: center;
     color: #7Faec5;
 }
-.p2{
+p{
     text-align: center;
+    color: #446874
+    
 }
 
 .introductie{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size:  x-large;
+    margin-block-start: 2em;
 }
 .wat{
     text-align: center;
+    font-size:  x-large;
+    margin-block-start: 2em;
 }
 .waarom{
     text-align: center;
-   
+    font-size:  x-large;
+    margin-block-start: 2em;
 }
 .app{
     text-align: center;
-    width: 90em;
-    padding: 10px;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: x-large;
+    margin-block-start: 2em;
+}
+.alle{
+      Display: Block;
+      /* box-sizing: ; */
 }
