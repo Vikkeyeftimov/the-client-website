@@ -3,6 +3,10 @@
     --secundaire: #4ecd5d;
     --maincolor: #384b61;
     --padding: 25px;
+    --max: 60rem;
+    --margin: 0 auto;
+    --body-font: 'Open Sans', sans-serif;
+    --navbarletter: 30px;
 
 }
 body {
@@ -29,7 +33,7 @@ nav {
 nav ul {
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 40px;
     margin: 0;
     padding: 0;
 }
@@ -38,10 +42,19 @@ nav li {
     box-sizing: content-box;
     display: flex;
     padding-block: 10px 20px;
-    border-radius: 10em;
-    background-color: var(--secundaire);   
-}
+    font-size: var(--navbarletter);
+    color: var(--maincolor);
 
+}
+.contact{
+    border-radius: 10px;
+    background-color: var(--secundaire);
+    height: 70px;
+    width: 120px;
+    font-size: var(--navbarletter);
+    border-color: #fafafa;
+
+}
 /* nav einde */
 
 /* voorpagina begin */
@@ -67,8 +80,7 @@ section:nth-of-type(1) {
 .begintitle, .scroll{
     position: absolute;
     z-index: 5;
-    
-    font-style:oblique;
+    font-style: Arial;
  }
 
  
@@ -83,10 +95,11 @@ section:nth-of-type(1) {
 
 .begintitle{   
     align-items: center;
-    top: 10em;
+    top: 7.5em;
     left: 25%;
-    font-size: 30px;
+    font-size: 40px;
     color: var(--maincolor);
+    text-shadow: 0 0 3em #446874;
 }
 
 .mainstad{
@@ -135,40 +148,48 @@ p{
     text-align: center;
     justify-content: center;
     font-size:  x-large;
-    padding: var(--padding);
-    
+    padding: var(--padding);   
+    max-width: var(--max);
+    margin: var(--margin);
 }
+.barrel{
+    width: 50em;
+    font-size: xx-small;
+}
+
 .wat{
     text-align: center;
     font-size:  x-large;
     padding: var(--padding);
+    max-width: var(--max);
+    margin: var(--margin)
 }
 
 .waarom{
     text-align: center;
     font-size:  x-large;
     padding: var(--padding);
+    max-width: var(--max);
+    margin: var(--margin);
     
 }
 .app{
-    text-align: center;
+    /* text-align: center; */
     flex-wrap: wrap;
-    
     font-size: x-large;
     padding: var(--padding);  
-    display: grid;
-    
+    max-width: var(--max);
+    margin: var(--margin);
 }
 
-/* .A, .B, .C, .D{
-  Display: block;
-      margin-block-start: 5em;
-      margin-block-end: 5em;
-     
-} */
+
+.A, .B, .C, .D{
+    font-style: var(--body-font);
+}
 
 .B{
     background-color: #fafafa;
+    width: 100%;
 }
 
 .D{
